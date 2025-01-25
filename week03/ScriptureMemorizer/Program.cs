@@ -1,3 +1,4 @@
+// I made my program work with five different scriptures instead of a single one. And those scriptures are chosen at random to present to users.
 using System;
 using System.Collections.Generic;
 using System.Linq;
