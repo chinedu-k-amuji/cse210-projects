@@ -1,0 +1,33 @@
+classDiagram
+    class Product {
+        - name: String
+        - price: float
+        - quantityInStock: int
+        + get_name(): String
+        + get_price(): float
+        + get_quantityInStock(): int
+    }
+
+    class Order {
+        - products: list[Product]
+        - customer: Customer 
+        - order_status: String
+        + add_product(product: Product)
+        + remove_product(product: Product)
+        + calculate_total() 
+        + get_order_status() 
+    }
+
+    class Customer {
+        - name: String
+        - address: String 
+        + get_name(): String
+        + get_address(): String 
+    }
+
+    class ShoppingCart {
+        - items: list[Product]
+        + add_product(product: Product)
+        + remove_product(product: Product)
+        + get_total() 
+    }

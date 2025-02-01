@@ -1,0 +1,26 @@
+classDiagram
+    class Video {
+        - title: String
+        - duration: int 
+        - genre: String 
+        + get_title(): String
+        + get_duration(): int
+        + get_genre(): String
+        + play() 
+    }
+
+    class VideoLibrary {
+        - videos: list[Video]
+        + add_video(video: Video)
+        + remove_video(video: Video)
+        + search_by_title(title: String) 
+        + get_all_videos(): list[Video] 
+    }
+
+     class Comment{
+        - commenter 1: (video: string)
+        -commenter 2: (video: sring)
+        -commenter 3: (video: string)
+
+     }
+    
