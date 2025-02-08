@@ -1,5 +1,6 @@
-// I made sure that no ramdom prompt/question are selected until they have all been used at least once in that session.
+//I ensured that no random prompts/questions were selected until they were used at least once in that session.
 // Program.cs
+
 using System;
 using System.Collections.Generic;
 
