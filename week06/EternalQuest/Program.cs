@@ -1,3 +1,5 @@
+// I added an action of point deduction whenever one misses to read one's bible in a day "Tagging it as a bad habit".
+
 using System;
 using System.Collections.Generic;
 using System.IO;
